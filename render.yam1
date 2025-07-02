@@ -1,13 +1,13 @@
 services:
   - type: web
-    name: goodmarket-bot
+    name: goodwalletmarket-bot
     env: python
     plan: free
     buildCommand: ""
     startCommand: python main.py
     envVars:
       - key: BOT_TOKEN
-        value: 7900599726:AAFYBNzrnrVUDIDpcxLYqb2WC_UCE3hjZP0
+        value: 7430710420:AAGD8dxEjVEpSizxIuBUnlS7djXRF9uO3sE
       - key: RECEIVER_ADDRESS
         value: 0xFf00A683f7bD77665754A65F2B82fdEFc4371a50
       - key: PYTHON_VERSION
