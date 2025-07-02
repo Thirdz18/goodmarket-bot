@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: goodmarket-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7900599726:AAFYBNzrnrVUDIDpcxLYqb2WC_UCE3hjZP0
+      - key: RECEIVER_ADDRESS
+        value: 0xFf00A683f7bD77665754A65F2B82fdEFc4371a50
