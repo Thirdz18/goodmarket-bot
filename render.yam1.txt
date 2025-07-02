@@ -10,3 +10,5 @@ services:
         value: 7900599726:AAFYBNzrnrVUDIDpcxLYqb2WC_UCE3hjZP0
       - key: RECEIVER_ADDRESS
         value: 0xFf00A683f7bD77665754A65F2B82fdEFc4371a50
+key: PYTHON_VERSION
+        value: 3.10.12
